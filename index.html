@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <main id="main">
+  <head> <link rel="stylesheet" type="text/css" href="style.css"> </head>
+    <h1 id="title" > freeCodeCamp Survey Form
+  </h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform  </p>
+   
+    <div id="formdiv">
+    <form id = "survey-form">
+      <label for="name-label" id="name-label"> Name </label>        <br>
+      <input type="text" class="text" id="name" placeholder="enter your name" required> <br>
+      <label for="email-label" id="email-label"> Email</label> <br>
+      <input type="email" class="text" id="email" placeholder="example@email.com" required> <br>
+      <label for="number-label" id = "number-label"> Number </label> <br>
+      <input type="number" class="text" id="number" placeholder="10-100" min="10" max="100" required> <br>
+          <label for="dropdown" id = "dropdown-label"> Which option best describes your current role?</label> <br>
+       <select id="dropdown" placeholder="select an option" class="text"  min="10" max="100" required>  <option value="volvo">Software Developer</option>
+  <option value="saab">Software Tester</option>
+  <option value="opel">Integration Specialist </option>
+  <option value="audi">Entry Level</option>
+      </select> <br>
+       <label for="radiogroup" id = "radiogroup-label"> Would you recommend freecodecamp to anyone? </label> <br>
+       <input type="radio" name="attribute" value="attribute" checked> Yes<br>
+  <input type="radio" name="attribute" value="attribute"> Maybe<br>
+  <input type="radio" name="attribute" value="attribute"> Not Sure <br>
+
+  <label for="checkbox" id = "checkbox-label"> What would you like to improve? </label> <br>
+      <input type="checkbox" name="attribute" value="Frontend"> Front end skill<br>
+      <input type="checkbox" name="attribute" value="Backend"> Back end skill <br>
+      <input type="checkbox" name="attribute" value="Integrations"> Integrations <br>
+      
+      <label for="textarea" id="textarea-label"> Any comments or suggestions </label> <br>
+      <textarea id="text-area"> </textarea> <br>
+ <input type="submit" name= "submit" value="submit" id="submit">
+      
+    </form>
+    </div>
+  </main>
+</html>  
